@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+canvas {
+  box-sizing: border-box;
+  display: block;
+  border: 2px solid black;
+  background-image: url("./img/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+height: 100%;
+justify-content: center;
+align-items: center;
+position: relative;
+min-height: 600px;
+}
+
+.end {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden
+}
+.end1 {
+  visibility: visible
+}
+
+.dialog {
+  padding: 15px;
+  border: 3px;
+  border-radius: 5px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.6;
+  font-size: 30px;
+  color: red;
+}
+
+.score {
+  color: red;
+}
+
+.restart {
+background-color: red;
+border: 3px black;
+border-radius: 5px;
+font-size: 20px;
+padding: 5px 10px;
+cursor: pointer;
+color: pink;
+outline: none;
+}
